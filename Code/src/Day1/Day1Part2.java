@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.*;
 import java.util.*;
 
@@ -5,7 +7,7 @@ public class Day1Part2 {
     public static void main(String[] args) {
         try {
             // Provide the file path as an argument
-            IO io = new IO("/Users/albertming/Desktop/advent-of-code-2024/advent-of-code-2024/Day1/src/input.txt");
+            IO io = new IO("Code/src/Day1/input.txt");
 
             List<Integer> firstList = new ArrayList<>();
             HashMap<Integer, Integer> secondMap = new HashMap<>();
